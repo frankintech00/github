@@ -3,7 +3,7 @@ import { GithubContext } from '../context/context';
 
 export const DashBoard = () => {
 	return (
-		<main className='w-full mx-auto md:w-11/12'>
+		<main className='w-full mx-auto md:w-4/5'>
 			{/* <Navbar /> */}
 			{/* <Search /> */}
 			<Info />

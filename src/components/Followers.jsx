@@ -17,7 +17,10 @@ export const Followers = () => {
 					{followers.map((follower, index) => {
 						const { avatar_url: img, html_url, login } = follower;
 						return (
-							<div className='flex flex-row items-center justify-start m-3'>
+							<div
+								key={login}
+								className='flex flex-row items-center justify-start m-3'
+							>
 								<div className='w-10 h-10 my-2 avatar'>
 									<div className='w-24 rounded-full'>
 										<img src={img} alt={login} />
