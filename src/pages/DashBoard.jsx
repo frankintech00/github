@@ -8,7 +8,7 @@ export const DashBoard = () => {
 			{/* <Search /> */}
 			<Info />
 			<User />
-			{/* <Repos /> */}
+			<Repos />
 		</main>
 	);
 };
