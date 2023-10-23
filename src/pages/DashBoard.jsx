@@ -5,7 +5,7 @@ export const DashBoard = () => {
 	return (
 		<main className='w-full mx-auto md:w-4/5'>
 			{/* <Navbar /> */}
-			{/* <Search /> */}
+			<Search />
 			<Info />
 			<User />
 			<Repos />
