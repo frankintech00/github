@@ -1,34 +1,43 @@
-#Github Search
+# GitHub User Analytics
 
-This is a [Create React App](https://create-react-app.dev/) (CRA) project with [Tailwind CSS](https://tailwindcss.com/) and [Daisy UI](https://daisyui.com/) integrated.
+Developed by Frank Kelly, this application provides a comprehensive overview of a GitHub user's activity, including their repositories, followers, and various other statistics. It's built using React and showcases a variety of components and visualizations. This project is based on a video course by John Smigla.
 
-## Installation
+## Features
 
-To install and run the App, use the following commands:
+- **User Search**: Search for any GitHub user to view their statistics.
+- **Detailed User Overview**: View details like followers, following, public repos, and gists.
+- **Visual Analytics**: Includes various charts like Bar3D, Column3D, Doughnut2D, and Pie3D to represent user data visually.
+- **Followers List**: View a list of followers for the searched user.
+- **Repository List**: View a list of repositories for the searched user.
+- **Authentication**: Secure login mechanism.
+- **Error Handling**: Dedicated error page for unforeseen issues.
 
-```
-npm install
-npm start
-```
+## Components
 
-## Building
+The application is structured with the following main components:
 
-To build the App, use the following command:
+- `App.js`: The main application file.
+- `Navbar.jsx`: Navigation bar component.
+- `Search.jsx`: Component to search for GitHub users.
+- `User.jsx`: Component to display user details.
+- `Repos.jsx`: Component to display user repositories.
+- `Followers.jsx`: Component to display user followers.
+- `InfoCards.jsx`: Component to display user statistics in card format.
+- `Charts`: Contains various chart components like `Bar3D`, `Column3D`, `Doughnut2D`, and `Pie3D`.
+- `context`: Contains the main context for the application.
+- `pages`: Contains various pages like `DashBoard`, `Error`, `Login`, and `PrivateRoute`.
 
-```
-npm run build
-```
+## Setup & Installation
 
-## Hosting
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Install the required dependencies using `npm install`.
+4. Run the application using `npm start`.
 
-The App is hosted on [Netlify](https://www.netlify.com/).
+## Contribution
 
-The App is deployed at https://app.netlify.com/teams/frankintech00/sites.
-
-## Author
-
-This App was created by Frank Kelly.
+Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss the proposed change.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
